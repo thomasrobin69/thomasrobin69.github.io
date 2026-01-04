@@ -2,17 +2,96 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Thomas Robin – Projets</title>
+  <title>Thomas Robin – Projets informatiques</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      color: #333;
+      margin: 0;
+      padding: 40px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .project {
+      max-width: 900px;
+      margin: 0 auto 60px auto;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+
+    .project h2 {
+      margin-top: 0;
+    }
+
+    .project p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 */
+      height: 0;
+      margin-top: 20px;
+    }
+
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 6px;
+    }
+  </style>
 </head>
+
 <body>
+
   <h1>Mes projets informatiques</h1>
 
-  <h2>Projet 1</h2>
-  <p>Description rapide du projet.</p>
-  <!-- Tu mettras ici ta vidéo plus tard -->
+  <!-- PROJET 1 -->
+  <section class="project">
+    <h2>Projet 1 – Titre du projet</h2>
+    <p>
+      Brève description du projet : contexte, objectif, technologies utilisées
+      et ce que ce projet démontre (compétences, problématique résolue, etc.).
+    </p>
 
-  <h2>Projet 2</h2>
-  <p>Description rapide du projet.</p>
+    <div class="video-container">
+      <iframe
+        src="https://www.youtube.com/embed/ID_VIDEO_1"
+        title="Présentation du projet 1"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+
+  <!-- PROJET 2 -->
+  <section class="project">
+    <h2>Projet 2 – Titre du projet</h2>
+    <p>
+      Description du second projet : fonctionnalités clés, intérêt technique
+      ou métier, et valeur ajoutée.
+    </p>
+
+    <div class="video-container">
+      <iframe
+        src="https://www.youtube.com/embed/ID_VIDEO_2"
+        title="Présentation du projet 2"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+
 </body>
 </html>
